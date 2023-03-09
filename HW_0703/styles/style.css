@@ -1,0 +1,27 @@
+/* Реализовать макет по примеру:
+https://postimg.cc/yks9ncGs
+Требования:
+Текст для блоков произвольный. 
+Для стилей используйте параметры:
+background-color: #34495E 
+border-radius: 20px // Устанавливает радиус скругления уголков border_а
+padding: 21px */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: aliceblue;
+    background-color: #34495E;
+    padding: 21px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+h1 {
+    margin: 15px;
+    color: #34495E;
+}

@@ -1,0 +1,26 @@
+/* сверстать табличку которая изображена на скриншоте
+https://postimg.cc/w1Z01X0J
+Требования:
+Изображения флагов можно найти в сети.
+Размер изображений произвольный, но одинаковый для всех полей */
+
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+table {
+    border: 1px solid grey;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+img {
+    height: 48px;
+    width: 48px;
+    margin: 0;
+}
+
