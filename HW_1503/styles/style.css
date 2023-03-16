@@ -1,0 +1,108 @@
+/* уровень сложности: Сверстать форму регистрации используя макет по ссылке.
+https://postimg.cc/SX80mwrn
+Требования:
+Данные по стилям взять из макета в figma: 
+https://www.figma.com/file/moIMHS67JQUrvH6WnvvYrB/forms_templates?node-id=1%3A69&t=cOVYuFB1NXZDa0yy-0
+Текст взять из макета.
+Для позиционирования элементов следует использовать display flex. */
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    padding: 30px;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 426px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(212, 212, 212);
+    position: relative;
+ }
+
+ input {
+    width: 356px;
+    height: 48px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+ }
+
+ h2 {
+    margin: 40px 32px 0 32px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 24px;
+ }
+
+ input:nth-child(2) {
+    border: 1px solid #FFE44D;
+    padding: 7px 16px 7px 16px;
+    margin-bottom: 8px;
+ }
+ 
+ input:nth-child(3) {
+    border: 1px solid #CFD8DC;
+    padding: 14px 16px 14px 16px;
+    margin-bottom: 24px;
+ }
+
+ p {
+    width: 356px;
+    height: 42px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7B8E98;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+ }
+
+ div {
+    display: flex;
+    flex-direction: column;
+ }
+
+ div button {
+    width: 356px;
+    height: 48px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border: none;
+    border-radius: 55px;
+  }
+
+ button:first-child {
+    background-color: #FFE44D;
+    margin-bottom: 8px;
+  }
+
+ button:last-child {
+    background-color: white;
+    border: 1px solid #CFD8DC;
+ } 
+
+ form .close-button {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    border: none;
+ }
+
+
+
