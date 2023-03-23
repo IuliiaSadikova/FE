@@ -34,6 +34,16 @@ https://www.figma.com/file/moIMHS67JQUrvH6WnvvYrB/forms_templates?node-id=1%3A69
     border-radius: 12px;
     margin-left: 32px;
     margin-right: 32px;
+    border: 1px solid #CFD8DC;
+ }
+
+ form input:focus {
+   outline: none;
+   border: 2px solid #FFE44D;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+
  }
 
  h2 {
@@ -45,16 +55,15 @@ https://www.figma.com/file/moIMHS67JQUrvH6WnvvYrB/forms_templates?node-id=1%3A69
  }
 
  input:nth-child(2) {
-    border: 1px solid #FFE44D;
     padding: 7px 16px 7px 16px;
     margin-bottom: 8px;
  }
  
  input:nth-child(3) {
-    border: 1px solid #CFD8DC;
+   
     padding: 14px 16px 14px 16px;
     margin-bottom: 24px;
- }
+ } 
 
  p {
     width: 356px;
@@ -102,6 +111,7 @@ https://www.figma.com/file/moIMHS67JQUrvH6WnvvYrB/forms_templates?node-id=1%3A69
     top: 21px;
     right: 21px;
     border: none;
+    cursor: pointer;
  }
 
 
