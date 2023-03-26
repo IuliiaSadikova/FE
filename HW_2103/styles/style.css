@@ -18,6 +18,8 @@ body {
 div {
     width: 200px;
     height: 200px;
+    transition: all 1.5s linear 0s
+
 }
 
 .square-red {
@@ -42,8 +44,4 @@ div {
     transform: rotate(-45deg);
     width: 300px;
     height: 300px;
-    transition-timing-function: linear;
-    transition-duration: 2s;
-    
-
 }
